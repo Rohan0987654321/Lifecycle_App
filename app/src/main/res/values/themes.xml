@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lifecycle_App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#009688</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Lifecycle_App" parent="Base.Theme.Lifecycle_App" />
+    <style name="bottom_nav_hover_color" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#36CED9D8</item>
+    </style>
+    <style name="custom_home_button">
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/first_fragment"
+            android:title="Open First"/>
+        <item
+            android:id="@+id/second_fragment"
+            android:title="Open Second"/>
+        <item
+            android:id="@+id/third_fragment"
+            android:title="Open Third"/>
+        <item
+            android:id="@+id/fourth_fragment"
+            android:title="Open Fourth"/>
+        <item
+            android:id="@+id/fifth_fragment"
+            android:title="Open Fifth"/>
+
+        <item
+            android:id="@+id/sixth_fragment"
+            android:title="Open Sixth"/>
+        <item
+            android:id="@+id/seventh_fragment"
+            android:title="Open Seventh"/>
+        <item
+            android:id="@+id/eigth_fragment"
+            android:title="Open Eigth"/>
+        <item
+            android:id="@+id/ninth_fragment"
+            android:title="Open Ninth"/>
+        <item
+            android:id="@+id/tenth_fragment"
+            android:title="Open Tenth"/>
+
+
+
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/rate_us"
+                android:title="Enjoying App Rate us"/>
+        </menu>
+
+    </item>
+
+</menu>
