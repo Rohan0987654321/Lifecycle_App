@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d("changesssssssssssssssss", "onCreate: changes maded")
         loadInterstitialAd()
         supportFragmentManager.beginTransaction().replace(R.id.frameLayout, Splash_Fragment()).commit()
     }
